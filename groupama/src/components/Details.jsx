@@ -22,7 +22,7 @@ function Details() {
             <div className="Card1Id">EPAYMT8...</div>
             <div className="Card1Method">Bankkártya</div>
             <div className="Card1Date">2019.06.25</div>
-            <div className="Card1Amount">5 000 Ft</div>
+            <div className="CardAmount">5 000 Ft</div>
             <div className="ElipseContainer">
               <img src="./src/assets/ellipse.svg" className="ellipse" />
             </div>
@@ -38,7 +38,7 @@ function Details() {
             <div className="Card2Method">Átutalás</div>
             <div className="TransactionDetailPart">
               <div className="Card2Date">2019.06.25</div>
-              <div className="Card2Amount">5 000 Ft</div>
+              <div className="CardAmount">5 000 Ft</div>
             </div>
             <div className="ElipseContainer">
               <img src="./src/assets/green.svg" className="ellipse" />
@@ -55,7 +55,7 @@ function Details() {
             <div className="Card3Id">EPAYMT8...</div>
             <div className="Card3Method">Bankkártya</div>
             <div className="Card3Date">2019.06.25</div>
-            <div className="Card3Amount">5 000 Ft</div>
+            <div className="CardAmount">5 000 Ft</div>
             <div className="ElipseContainer">
               <img src="./src/assets/red.svg" className="ellipse" />
             </div>
@@ -71,7 +71,7 @@ function Details() {
             <div className="Card4Id">EPAYMT8...</div>
             <div className="Card4Method">Bankkártya</div>
             <div className="Card4Date">2019.06.25</div>
-            <div className="Card4Amount">5 000 Ft</div>
+            <div className="CardAmount">5 000 Ft</div>
             <div className="ElipseContainer">
               <img src="./src/assets/green.svg" className="ellipse" />
             </div>

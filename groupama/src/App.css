@@ -64,6 +64,7 @@ p {
   height: 100vh;
   margin-left: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
 }
 
 .UpperContainer {
@@ -86,6 +87,9 @@ p {
   padding: 20px;
   padding-top: 30px;
   gap: 20px;
+  color: #3d424c;
+  font-weight: 400;
+  line-height: 20.48px;
 }
 
 /* Details Component */
@@ -123,6 +127,7 @@ nav {
   display: flex;
   margin-left: 35px;
   gap: 70px;
+  color: #6f7381;
 }
 
 .Cards {
@@ -136,6 +141,9 @@ nav {
 .Card2,
 .Card3,
 .Card4 {
+  color: #3d424c;
+  font-weight: 400;
+  font-size: 14px;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -173,19 +181,19 @@ nav {
 
 .TransactionDetails {
   display: flex;
-  gap: 70px;
+  gap: 80px;
   margin-left: 15px;
 }
 
 .TransactionDetail {
   display: flex;
-  gap: 70px;
+  gap: 80px;
   margin-left: 15px;
 }
 
 .TransactionDetailPart {
   display: flex;
-  gap: 70px;
+  gap: 80px;
   margin-left: 23.5px;
 }
 
@@ -195,4 +203,8 @@ nav {
   align-items: center;
   right: 0;
   height: 20px;
+}
+
+.CardAmount {
+  font-weight: 700;
 }
