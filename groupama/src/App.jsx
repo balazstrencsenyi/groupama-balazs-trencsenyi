@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <div id='root'>
+    <>
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Signee />
       <Details />
-    </div>
+    </>
   );
 }
 
