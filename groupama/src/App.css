@@ -167,17 +167,87 @@ nav {
   font-weight: 700;
 }
 
+.CurrentPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .TransactionPart {
   display: flex;
   gap: 7px;
 }
 
-.rectangle {
-  position: absolute;
-  right: 470px;
-}
-
 .TransactionIcons {
   display: flex;
   gap: 30px;
+}
+
+.StatusContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.AttachIcon {
+  cursor: pointer;
+}
+
+.Arrow {
+  cursor: pointer;
+}
+
+#Icons1 {
+  display: flex;
+  margin-left: 40px;
+}
+
+#Icons2 {
+  display: flex;
+  margin-left: 100px;
+}
+
+#Icons3 {
+  display: flex;
+  margin-left: 58px;
+}
+
+#Icons4 {
+  display: flex;
+  margin-left: 53px;
+}
+
+.vector {
+  cursor: pointer;
+}
+
+nav:hover {
+  color: #000000;
+}
+
+.TransactionMiddle {
+  display: flex;
+  gap: 70px;
+}
+
+#Middle1 {
+  display: flex;
+  margin-left: 20px;
+}
+
+#Middle2 {
+  display: flex;
+  margin-left: 40px;
+}
+
+#Middle3 {
+  display: flex;
+  margin-left: 28px;
+}
+
+#Middle4 {
+  display: flex;
+  margin-left: 20px;
 }
