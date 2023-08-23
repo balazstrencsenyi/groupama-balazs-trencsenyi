@@ -121,6 +121,7 @@ nav {
 
 .LetterHead {
   display: flex;
+  margin-left: 35px;
   gap: 70px;
 }
 
@@ -158,4 +159,40 @@ nav {
   position: absolute;
   right: 320px;
   cursor: pointer;
+}
+
+.ellipse {
+  position: absolute;
+  right: 515px;
+}
+
+.vector {
+  position: absolute;
+  right: 1110px;
+}
+
+.TransactionDetails {
+  display: flex;
+  gap: 70px;
+  margin-left: 15px;
+}
+
+.TransactionDetail {
+  display: flex;
+  gap: 70px;
+  margin-left: 15px;
+}
+
+.TransactionDetailPart {
+  display: flex;
+  gap: 70px;
+  margin-left: 23.5px;
+}
+
+.ElipseContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  height: 20px;
 }
