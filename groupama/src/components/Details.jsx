@@ -25,6 +25,13 @@ function Details() {
               <div>5 000 Ft</div>
             </div>
           </div>
+          <div className="BottomExpanded">
+            <div className="Attached">Csatolmány</div>
+            <div className="pdf">
+              <img src="./src/assets/pdf.svg"  />
+              <div>Fizetési nyugta letöltése</div>
+            </div>
+          </div>
         </div>
       );
     }

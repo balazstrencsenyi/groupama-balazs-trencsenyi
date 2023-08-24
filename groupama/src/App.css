@@ -253,5 +253,40 @@ nav:hover {
   margin-left: 20px;
 }
 
+.ExpandedContent {
+  height: 200px;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #fff;
+  width: 900px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
 .UpperExpanded {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 120px;
+  height: 50%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.7);
+}
+
+.BottomExpanded {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  height: 50%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pdf {
+  display: flex;
+  gap: 20px;
 }
