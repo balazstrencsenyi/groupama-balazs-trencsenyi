@@ -3,7 +3,7 @@ import { useState } from "react";
 function Details() {
   const [expandedCard, setExpandedCard] = useState(null);
 
-  const handleArrowClick = (cardIndex) => {
+ const handleArrowClick = (cardIndex) => {
     setExpandedCard(cardIndex === expandedCard ? null : cardIndex);
   };
 
@@ -60,8 +60,14 @@ function Details() {
       <div className="Cards">
         <div className="Card1">
           <div className="TransactionPart">
-            <img src="./src/assets/vector.svg" className="vector" />
-            <div className="Card1Id">EPAYMT8...</div>
+            <img
+              src="./src/assets/vector.svg"
+              className="vector"
+              onClick={() => handleArrowClick(0)} 
+            />
+            <div className="Card1Id">
+              {expandedCard === 0 ? "EPAYMT8ZV4" : "EPAYMT8..."}
+            </div>
           </div>
           <div className="Card1Method">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle1">
@@ -85,8 +91,8 @@ function Details() {
 
         <div className="Card2">
           <div className="TransactionPart">
-            <img src="./src/assets/vector.svg" className="vector" />
             <div className="Card2Id">123456789</div>
+
           </div>
           <div className="Card2Method">Átutalás</div>
           <div className="TransactionMiddle" id="Middle2">
@@ -109,8 +115,9 @@ function Details() {
 
         <div className="Card3">
           <div className="TransactionPart">
-            <img src="./src/assets/vector.svg" className="vector" />
-            <div className="Card3Id">EPAYMT8...</div>
+            <img src="./src/assets/vector.svg" className="vector" onClick={() => handleArrowClick(2)}  />
+            <div className="Card3Id">{expandedCard === 2 ? "EPAYMT8ZV4" : "EPAYMT8..."}</div>
+           
           </div>
           <div className="Card3Method">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle3">
@@ -134,8 +141,9 @@ function Details() {
 
         <div className="Card4">
           <div className="TransactionPart">
-            <img src="./src/assets/vector.svg" className="vector" />
-            <div className="Card4Id">EPAYMT8...</div>
+            <img src="./src/assets/vector.svg" className="vector" onClick={() => handleArrowClick(3)}  />
+            <div className="Card4Id">{expandedCard === 3 ? "EPAYMT8ZV4" : "EPAYMT8..."}</div>
+            
           </div>
           <div className="Card4Method">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle4">

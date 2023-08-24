@@ -240,7 +240,7 @@ nav:hover {
 
 #Middle2 {
   display: flex;
-  margin-left: 40px;
+  margin-left: 38px;
 }
 
 #Middle3 {
@@ -289,4 +289,9 @@ nav:hover {
 .pdf {
   display: flex;
   gap: 20px;
+}
+
+.Card2Id {
+  display: flex;
+  margin-left: 15px;
 }
