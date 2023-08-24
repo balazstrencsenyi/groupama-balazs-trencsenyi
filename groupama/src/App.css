@@ -295,3 +295,121 @@ nav:hover {
   display: flex;
   margin-left: 15px;
 }
+
+@media only screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .Details {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .Header {
+    height: 50px;
+    width: 100%;
+  }
+  #LeftContainer {
+    margin-left: 0;
+    justify-content: end;
+  }
+
+  #Logo {
+    margin-right: 30px;
+  }
+
+  #RightContainer {
+    justify-content: end;
+    margin-right: 0;
+  }
+
+  p {
+    display: none;
+  }
+
+  .Signee {
+    display: none;
+  }
+
+  .LetterHead {
+    display: none;
+  }
+
+  .Menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    gap: 5px;
+  }
+
+  nav {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .Cards {
+    margin-left: 0;
+  }
+
+  .rectangle {
+    display: flex;
+  }
+
+  .Card1,
+  .Card2,
+  .Card3,
+  .Card4 {
+    color: #3d424c;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 70px;
+    height: 102px;
+    margin-right: 0;
+    width: 343px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ExpandedContent {
+    width: 343px;
+  }
+
+  .TransactionPart {
+    display: none;
+  }
+
+  .TransactionIcons {
+    display: none;
+  }
+
+  .CardMethod {
+    display: none;
+  }
+
+  .TransactionMiddle {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}

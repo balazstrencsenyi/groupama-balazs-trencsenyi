@@ -69,7 +69,7 @@ function Details() {
               {expandedCard === 0 ? "EPAYMT8ZV4" : "EPAYMT8..."}
             </div>
           </div>
-          <div className="Card1Method">Bankkártya</div>
+          <div className="CardMethod">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle1">
             <div className="Card1Date">2019.06.25</div>
             <div className="CardAmount">5 000 Ft</div>
@@ -94,7 +94,7 @@ function Details() {
             <div className="Card2Id">123456789</div>
 
           </div>
-          <div className="Card2Method">Átutalás</div>
+          <div className="CardMethod">Átutalás</div>
           <div className="TransactionMiddle" id="Middle2">
             <div className="Card2Date">2019.06.25</div>
             <div className="CardAmount">5 000 Ft</div>
@@ -119,7 +119,7 @@ function Details() {
             <div className="Card3Id">{expandedCard === 2 ? "EPAYMT8ZV4" : "EPAYMT8..."}</div>
            
           </div>
-          <div className="Card3Method">Bankkártya</div>
+          <div className="CardMethod">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle3">
             <div className="Card3Date">2020.03.22</div>
             <div className="CardAmount">5 000 Ft</div>
@@ -145,7 +145,7 @@ function Details() {
             <div className="Card4Id">{expandedCard === 3 ? "EPAYMT8ZV4" : "EPAYMT8..."}</div>
             
           </div>
-          <div className="Card4Method">Bankkártya</div>
+          <div className="CardMethod">Bankkártya</div>
           <div className="TransactionMiddle" id="Middle4">
             <div className="Card4Date">2019.06.25</div>
             <div className="CardAmount">5 000 Ft</div>
